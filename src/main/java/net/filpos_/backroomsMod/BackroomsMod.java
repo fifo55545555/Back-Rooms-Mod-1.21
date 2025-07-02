@@ -25,7 +25,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 public class BackroomsMod {
 
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "backroommodoffilpos";
+    public static final String MOD_ID = "backroomsmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -55,8 +55,13 @@ public class BackroomsMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.ALMOND_WATER);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.DIRTY_ALMOND_WATER);
         }
     }
 
