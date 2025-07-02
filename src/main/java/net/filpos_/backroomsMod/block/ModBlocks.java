@@ -17,6 +17,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
+    //initialized register for blocks
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(BackroomsMod.MOD_ID);
 
 
@@ -24,8 +25,15 @@ public class ModBlocks {
     public static final DeferredBlock<Block> YELLOW_WALLPAPER = registerBlock("yellow_wallpaper",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f)
-                    .requiresCorrectToolForDrops()
+                    .strength(4f,2f)
                     .sound(SoundType.BAMBOO_WOOD)
+            ));
+
+    public static final DeferredBlock<Block> FLOOR_FABRIC = registerBlock("floor_fabric",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .strength(3f, 2f)
+                    .sound(SoundType.WOOL)
             ));
 
 

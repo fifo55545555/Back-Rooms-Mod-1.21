@@ -68,6 +68,7 @@ public class BackroomsMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.YELLOW_WALLPAPER);
+            event.accept(ModBlocks.FLOOR_FABRIC);
         }
     }
 
