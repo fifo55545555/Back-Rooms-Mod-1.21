@@ -2,8 +2,6 @@
     To do list for Backrooms mod. sorted in order of importance/priority (not categories)
 
  -blocks:
-    -glitch block
-    -lv0 ceiling tiles
     -lv0 light
     -infinite desert sand
 

@@ -29,6 +29,8 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.ALMOND_WATER);
                         output.accept(ModItems.DIRTY_ALMOND_WATER);
+                        output.accept(ModItems.GLITCH);
+                        output.accept(ModItems.GLITCH_RAW);
                         output.accept(Item.byId(1));
                     }).build());
 

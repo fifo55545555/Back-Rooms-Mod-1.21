@@ -10,12 +10,22 @@ public class ModItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(BackroomsMod.MOD_ID);
 
+
+    //new items here    names: general type -> specific variant  example: glitch_ore_sand_red
     public static final DeferredItem<Item> ALMOND_WATER = ITEMS.register("almond_water",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> DIRTY_ALMOND_WATER = ITEMS.register("dirty_almond_water",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> GLITCH = ITEMS.register("glitch",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> GLITCH_RAW = ITEMS.register("glitch_raw",
+            () -> new Item(new Item.Properties()));
+
+
+    //classes
     public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
     }
