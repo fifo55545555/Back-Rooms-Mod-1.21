@@ -1,0 +1,35 @@
+
+    To do list for Backrooms mod. sorted in order of importance/priority (not categories)
+
+ -blocks:
+    -glitch block
+    -lv0 ceiling tiles
+    -lv0 light
+    -infinite desert sand
+
+ -items:
+    -glitch
+    -raw glitch
+    -unstable glitch
+
+ -dimensions:
+    -infinite desert
+    -lv0
+   possible:
+    -poolrooms
+    -decrepit lv0
+
+ -structures:
+    -staircase  [infinite desert]   (infd -> overworld)
+    -destroyed lv0  [infinite desert]    (infd -> lv0)
+   possible:
+    -door   [decrepit lv0]    (dlv0 -> infd)
+    -fake door  [decrepit lv0]  (dlv0 -> lv0)
+
+ -entities:
+    -wall mite [lv0]
+    -bacteria [?lv0/dlv0]
+
+ -biomes:
+    -extreme desert
+    -extreme red desert

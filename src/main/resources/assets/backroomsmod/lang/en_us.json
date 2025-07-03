@@ -4,6 +4,10 @@
 
   "block.backroomsmod.yellow_wallpaper": "Yellow Wallpaper",
   "block.backroomsmod.floor_fabric": "Floor Fabric",
+  "block.backroomsmod.glitch_ore_sand": "Sand Glitch Ore",
+  "block.backroomsmod.glitch_ore_sand_red": "Red Sand Glitch Ore",
+  "block.backroomsmod.glitch_block": "Glitch Block",
+  "block.backroomsmod.ceiling_tile": "ceiling Tiles",
 
   "creativetab.backroomsmod.backrooms_items": "Backrooms Items",
   "creativetab.backroomsmod.backrooms_blocks": "Backrooms Blocks"

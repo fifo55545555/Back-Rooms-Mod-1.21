@@ -72,6 +72,13 @@ public class BackroomsMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.YELLOW_WALLPAPER);
             event.accept(ModBlocks.FLOOR_FABRIC);
+            event.accept(ModBlocks.GLITCH_BLOCK);
+            event.accept(ModBlocks.CEILING_TILE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.GLITCH_ORE_SAND);
+            event.accept(ModBlocks.GLITCH_ORE_SAND_RED);
         }
     }
 

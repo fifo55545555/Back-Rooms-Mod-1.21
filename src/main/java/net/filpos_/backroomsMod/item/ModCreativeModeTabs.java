@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIRTY_ALMOND_WATER);
                         output.accept(Item.byId(1));
                     }).build());
+
     // blocks
     public static final Supplier<CreativeModeTab> BACKROOMS_BLOCK_TAB = CREATIVE_MODE_TAB.register("backrooms_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.YELLOW_WALLPAPER.get()))
@@ -39,6 +40,10 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.YELLOW_WALLPAPER);
                         output.accept(ModBlocks.FLOOR_FABRIC);
+                        output.accept(ModBlocks.GLITCH_ORE_SAND);
+                        output.accept(ModBlocks.GLITCH_ORE_SAND_RED);
+                        output.accept(ModBlocks.GLITCH_BLOCK);
+                        output.accept(ModBlocks.CEILING_TILE);
                     }).build());
 
     //methods

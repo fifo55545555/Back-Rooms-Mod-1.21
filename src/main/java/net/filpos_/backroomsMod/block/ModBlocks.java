@@ -2,8 +2,6 @@ package net.filpos_.backroomsMod.block;
 
 import net.filpos_.backroomsMod.BackroomsMod;
 import net.filpos_.backroomsMod.item.ModItems;
-import net.minecraft.client.resources.sounds.Sound;
-import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -24,16 +22,41 @@ public class ModBlocks {
     //new blocks here
     public static final DeferredBlock<Block> YELLOW_WALLPAPER = registerBlock("yellow_wallpaper",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f)
-                    .strength(4f,2f)
+                    .strength(1f)
                     .sound(SoundType.BAMBOO_WOOD)
             ));
 
     public static final DeferredBlock<Block> FLOOR_FABRIC = registerBlock("floor_fabric",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f)
-                    .strength(3f, 2f)
                     .sound(SoundType.WOOL)
+            ));
+
+    public static final DeferredBlock<Block> GLITCH_ORE_SAND = registerBlock("glitch_ore_sand",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .sound(SoundType.SAND)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> GLITCH_ORE_SAND_RED = registerBlock("glitch_ore_sand_red",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .sound(SoundType.SAND)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> GLITCH_BLOCK = registerBlock("glitch_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .sound(SoundType.AMETHYST)
+                    .requiresCorrectToolForDrops()
+            ));
+    public static final DeferredBlock<Block> CEILING_TILE  = registerBlock("ceiling_tile",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .sound(SoundType.TUFF_BRICKS)
+                    .requiresCorrectToolForDrops()
             ));
 
 
