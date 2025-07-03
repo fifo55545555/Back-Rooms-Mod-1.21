@@ -1,6 +1,7 @@
 package net.filpos_.backroomsMod;
 
 import net.filpos_.backroomsMod.block.ModBlocks;
+import net.filpos_.backroomsMod.item.ModCreativeModeTabs;
 import net.filpos_.backroomsMod.item.ModItems;
 
 import net.minecraft.world.item.CreativeModeTabs;
@@ -44,6 +45,8 @@ public class BackroomsMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // registering classes specific to mod
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

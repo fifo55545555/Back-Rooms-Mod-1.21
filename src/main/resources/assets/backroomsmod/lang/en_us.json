@@ -3,5 +3,8 @@
   "item.backroomsmod.dirty_almond_water": "Dirty Almond Water",
 
   "block.backroomsmod.yellow_wallpaper": "Yellow Wallpaper",
-  "block.backroomsmod.floor_fabric": "Floor Fabric"
+  "block.backroomsmod.floor_fabric": "Floor Fabric",
+
+  "creativetab.backroomsmod.backrooms_items": "Backrooms Items",
+  "creativetab.backroomsmod.backrooms_blocks": "Backrooms Blocks"
 }
