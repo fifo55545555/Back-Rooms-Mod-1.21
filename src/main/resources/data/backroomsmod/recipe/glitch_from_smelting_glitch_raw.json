@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.3,
+  "group": "glitch",
+  "ingredient": {
+    "item": "backroomsmod:glitch_raw"
+  },
+  "result": {
+    "id": "backroomsmod:glitch"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.8,
+  "group": "glitch",
+  "ingredient": {
+    "item": "backroomsmod:glitch_raw"
+  },
+  "result": {
+    "id": "backroomsmod:glitch"
+  }
+}

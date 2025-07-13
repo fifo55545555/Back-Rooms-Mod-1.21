@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIRTY_ALMOND_WATER);
                         output.accept(ModItems.GLITCH);
                         output.accept(ModItems.GLITCH_RAW);
+                        output.accept(ModItems.CHISEL);
                         output.accept(Item.byId(1));
                     }).build());
 

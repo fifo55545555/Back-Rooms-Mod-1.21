@@ -2,9 +2,11 @@ package net.filpos_.backroomsMod.block;
 
 import net.filpos_.backroomsMod.BackroomsMod;
 import net.filpos_.backroomsMod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -24,6 +26,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f)
                     .sound(SoundType.BAMBOO_WOOD)
+                    .requiresCorrectToolForDrops()
             ));
 
     public static final DeferredBlock<Block> FLOOR_FABRIC = registerBlock("floor_fabric",
@@ -33,18 +36,18 @@ public class ModBlocks {
             ));
 
     public static final DeferredBlock<Block> GLITCH_ORE_SAND = registerBlock("glitch_ore_sand",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(2, 4), (BlockBehaviour.Properties.of()
                     .strength(1f)
                     .sound(SoundType.SAND)
                     .requiresCorrectToolForDrops()
-            ));
+            )));
 
     public static final DeferredBlock<Block> GLITCH_ORE_SAND_RED = registerBlock("glitch_ore_sand_red",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(3, 5),   (BlockBehaviour.Properties.of()
                     .strength(1f)
                     .sound(SoundType.SAND)
                     .requiresCorrectToolForDrops()
-            ));
+            )));
 
     public static final DeferredBlock<Block> GLITCH_BLOCK = registerBlock("glitch_block",
             () -> new Block(BlockBehaviour.Properties.of()

@@ -1,6 +1,7 @@
 package net.filpos_.backroomsMod.item;
 
 import net.filpos_.backroomsMod.BackroomsMod;
+import net.filpos_.backroomsMod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -23,6 +24,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> GLITCH_RAW = ITEMS.register("glitch_raw",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(256)));
 
 
     //classes

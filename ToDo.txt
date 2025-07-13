@@ -6,8 +6,6 @@
     -infinite desert sand
 
  -items:
-    -glitch
-    -raw glitch
     -unstable glitch
 
  -dimensions:
@@ -31,3 +29,7 @@
  -biomes:
     -extreme desert
     -extreme red desert
+
+ -textures:
+    -glitch
+    -raw glitch
